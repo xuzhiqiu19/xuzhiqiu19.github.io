@@ -1,61 +1,102 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>
-	XU.ZhiQiu Page
-	</title>
-	<meta http-equiv="content-type" content="text/html;charset=utf-8"/>
-	<link rel="stylesheet" type="text/css" href="css/nav.css">
-	
-	<link href="https://cdn.bootcss.com/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
-	<link href="https://cdn.bootcss.com/font-awesome/5.8.1/css/fontawesome.css" rel="stylesheet">
-	<link href="https://cdn.bootcss.com/font-awesome/5.8.1/css/fontawesome.min.css" rel="stylesheet">
-	<link href="https://cdn.bootcss.com/jquery/2.2.1/jquery.min.js" rel="stylesheet">
-	<link href="js/nav.js" rel="stylesheet">
-	<style type="text/css">
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<title>
+		XU.ZhiQiu Page
+		</title>
+		<meta http-equiv="content-type" content="text/html;charset=utf-8"/>
+		<link rel="stylesheet" type="text/css" href="css/nav.css">
+		
+		<link href="https://cdn.bootcss.com/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+		<link href="https://cdn.bootcss.com/font-awesome/5.8.1/css/fontawesome.css" rel="stylesheet">
+		<link href="https://cdn.bootcss.com/font-awesome/5.8.1/css/fontawesome.min.css" rel="stylesheet">
+		<link href="https://cdn.bootcss.com/jquery/2.2.1/jquery.min.js" rel="stylesheet">
+		<link href="js/nav.js" rel="stylesheet">
+		<style type="text/css">
 
-		body{
-			width: 1000px;
-			height: auto;
-			padding:0px;
-			margin:auto;
-			background: #f2f2f2 url('images/bg.png') no-repeat left top;
-			background-size:100%;
-		}
-		.wrap .line{
-			height: 500px;
-			width: 188px;
-			margin:0 auto;
-		}
-	</style>
-</head>
-<body>
-	<bgsound src="songs/jq22.mp3" autostart=true loop=infinite>
-	<div style="width: 1000px; height: auto;background-color: blue;margin-top: 100px;">
-		<h2>
-		ta 的名字叫，<b>秋秋</b>。
-		</h2>
-	</div>
-	<div class="leftNav-item">
-		<ul>
-			<li>
-				<i class="fa fa-paper-plane" aria-hidden="true"></i>
-				<a href="https://xuzhiqiu19.github.io" class="rota">首页</a>
-			</li>
-			<li title="看烟花">
-				<i class="fa fa-comments-o"></i>
-				<a href="https://xuzhiqiu19.github.io/yanhua.html"class="rota">看烟花</a>
-			</li> 
-			<li lay-data="img" data-fooc="images/zizhu.png">
-					<i class="fa fa-heart" aria-hidden="true"></i>
-				<a href="javascript:;" class="rota">关于</a>
-			</li> 
-			<li title="返回顶部" class="for-top">
-				<i class="fa fa-arrow-up"></i>
-				<a href="javascript:;" class="rota">去顶部</a>
-			</li>
-		</ul>
-	</div>
-	
-</body>
-</html>
+			body{
+				width: 1000px;
+				height: auto;
+				padding:0px;
+				margin:auto;
+				background: #f2f2f2 url('images/bg.png') no-repeat left top;
+				background-size:100%;
+			}
+			.wrap .line{
+				height: 500px;
+				width: 188px;
+				margin:0 auto;
+			}
+
+			.transparent {
+				position: absolute;
+				top: 0;
+				left: 0;
+				
+				text-align: center;
+				
+				width: 100%;
+				height: 100%;
+				
+				filter: alpha(opacity=40);
+				background-color: rgb(0, 0, 0);
+				
+				background-color: rgba(0, 0, 0, 0.01);
+			}
+
+			.box {
+				background-color: rgba(0,0,128, 0.5);;
+				width: 45%;
+				height: 80%;
+				
+				position: relative;
+				left: 10%;
+				top: 10%;
+
+				border-radius:30px
+			}
+
+			.text_title{
+				font-size: 20px;
+				color: White;
+			}
+
+
+		</style>
+	</head>
+	<body>
+		<bgsound src="songs/jq22.mp3" autostart=true loop=infinite>
+		
+		<div class="transparent">
+			<div class="box">
+				<h2>======</h2>
+				<div class="text_title">
+					<h5>ta 的名字叫，<b>秋秋</b></h5>
+				</div>
+			
+			</div>
+		</div>
+
+		<div class="leftNav-item">
+			<ul>
+				<li>
+					<i class="fa fa-location-arrow"></i>
+					<a href="https://xuzhiqiu19.github.io" class="rota">首页</a>
+				</li>
+				<li title="看烟花">
+					<i class="fa fa-comments-o"></i>
+					<a href="https://xuzhiqiu19.github.io/yanhua.html"class="rota">看烟花</a>
+				</li> 
+				<li lay-data="img" data-fooc="images/zizhu.png">
+					<i class="fa fa-money"></i><a href="javascript:;" class="rota">关于</a>
+				</li> 
+				<li title="返回顶部" class="for-top">
+					<i class="fa fa-arrow-up"></i>
+					<a href="javascript:;" class="rota">去顶部</a>
+				</li>
+			</ul>
+		</div>
+		<script src="js/jquery-2.1.1.min.js"></script>
+		<script type="text/javascript" src="js/nav.js"></script>
+	</body>
+	</html>
