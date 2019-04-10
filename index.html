@@ -1,17 +1,56 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta http-equiv="content-type" content="text/html;charset=utf-8"/>
 	<title>
-		XU.ZhiQiu Page
+	XU.ZhiQiu Page
 	</title>
+	<meta http-equiv="content-type" content="text/html;charset=utf-8"/>
+	<link rel="stylesheet" type="text/css" href="css/nav.css">
+	<link rel="stylesheet" type="text/css" href="http://www.jq22.com/jquery/font-awesome.4.6.0.css">
+	<style type="text/css">
+
+		body{
+			width: 1000px;
+			height: auto;
+			padding:0px;
+			margin:auto;
+			background: #f2f2f2 url('images/bg.png') no-repeat left top;
+			background-size:100%;
+		}
+		.wrap .line{
+			height: 500px;
+			width: 188px;
+			margin:0 auto;
+		}
+	</style>
 </head>
 <body>
-
-	<p>
-		wo 的名字叫，<b>徐知秋</b>。
-	</p>
-	
-	<a href="yanhua.html">今晚放烟花</a>
+	<bgsound src="songs/jq22.mp3" autostart=true loop=infinite>
+	<div style="width: 1000px; height: auto;background-color: blue;margin-top: 100px;">
+		<h2>
+		ta 的名字叫，<b>秋秋</b>。
+		</h2>
+	</div>
+	<div class="leftNav-item">
+		<ul>
+			<li>
+				<i class="fa fa-location-arrow"></i>
+				<a href="https://xuzhiqiu19.github.io" class="rota">首页</a>
+			</li>
+			<li title="看烟花">
+				<i class="fa fa-comments-o"></i>
+				<a href="https://xuzhiqiu19.github.io/yanhua.html"class="rota">看烟花</a>
+			</li> 
+			<li lay-data="img" data-fooc="images/zizhu.png">
+				<i class="fa fa-money"></i><a href="javascript:;" class="rota">关于</a>
+			</li> 
+			<li title="返回顶部" class="for-top">
+				<i class="fa fa-arrow-up"></i>
+				<a href="javascript:;" class="rota">去顶部</a>
+			</li>
+		</ul>
+	</div>
+	<script src="js/jquery-2.1.1.min.js"></script>
+	<script type="text/javascript" src="js/nav.js"></script>
 </body>
 </html>
