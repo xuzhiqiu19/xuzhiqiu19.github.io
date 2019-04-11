@@ -1,0 +1,57 @@
+.section{
+	text-align:center;
+	color:#FFF;
+}
+
+.cabecalho{
+	background-image: url('../images/bg.png');
+	background-size: cover!important;
+    background-position: center!important;
+}
+
+.content{
+	width:100%;
+	height:1000px;
+}
+
+.titulo1{
+	background-image: url('../images/code.png');
+	background-size: cover!important;
+    background-position: center!important;
+}
+
+.titulo2{
+	background-image: url('../images/programmer.jpg');
+	background-size: cover!important;
+    background-position: center!important;
+}
+
+.titulo3{
+	background-image: url('../images/Rails_Developer.png');
+	background-size: cover!important;
+    background-position: center!important;
+}
+
+.titulo4{
+	background-image: url('../images/web_developer.jpg');
+	background-size: cover!important;
+    background-position: center!important;
+}
+
+.conteudo1{
+	background-image: url('../images/Space.jpg');
+	background-size: cover!important;
+    background-position: center!important;
+}
+
+.conteudo2{
+	background-image: url('../images/Loading.jpg');
+	background-size: cover!important;
+    background-position: center!important;
+}
+
+.rodape{
+	background-image: url('../images/Space.jpg');
+	background-size: cover!important;
+    background-position: center!important;
+}
